@@ -1,0 +1,120 @@
+body, html {
+    align-items: center;
+    font-family: 'Amazon Ember', arial, sans-serif;
+}
+
+header, main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+figure {
+    margin: 0px 0px 10px 0px;
+}
+
+figure > img{
+    height:45px;
+}
+
+footer {
+    display: flex;
+    flex-direction: column;
+    font-size:11px;
+}
+
+.signin {
+    display: flex;
+    flex-direction: column;
+    border-style: solid; 
+    border-width: thin;
+    border-color: #DDDDDD;
+    border-radius: 6px;
+    padding: 0px 25px 25px 25px;
+    font-size: 13px;
+    font-weight: 600;
+}
+
+.signin > h3 {
+    font-size:24px;
+    margin: 20px 0px 15px 0px;
+}
+
+.signin > p {
+    font-weight: 400;
+}
+
+input {
+    margin: 5px 0px 10px 0px;
+    width: 260px;
+    height: 1.7em;
+    border: thin solid rgb(141, 137, 137);
+    border-radius: 4px;
+}
+
+input:focus {
+    background-color: rgb(249, 252, 253);
+    outline: 3px solid rgb(161, 224, 224);
+}
+
+.login_button {
+    background-color: rgb(247, 211, 75);
+    margin: 10px 0px 0px 0px;
+    width: 267px;
+    height: 2.2em;
+    border: none;
+    border-radius: 8px;
+    transition-duration: 0.1s;
+}
+
+.login_button:hover{
+    background-color:rgb(247, 202, 0);
+}
+
+.create_button {
+    font-size: 12px;
+    margin: 0px 0px 10px 0px;
+    border: solid;
+    border-width: 1px;
+    border-radius: 8px;
+    border-color: #bebaba;
+    background-color: rgb(252, 252, 252);
+    padding: 8px;
+    width: 320px;
+}
+
+.create_button:hover {
+    background-color: rgb(233, 225, 225)
+}
+
+.create_account {
+    font-size: 12px;
+    color: #7F7676;
+    text-align: center;
+}
+
+a {
+    color: #0066C4;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #CE7F46;
+    text-decoration: underline;
+}
+
+.bottom {
+    text-align: center;
+}
+
+hr {
+    width: 100%;
+    border-width: 2px;
+}
+
+nav li {
+    display: inline;
+    list-style-type: none;
+    padding: 0px;
+    margin: 0px 20px 0px 0px;
+}
